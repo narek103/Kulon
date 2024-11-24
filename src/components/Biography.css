@@ -1,0 +1,98 @@
+
+.biography {
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3dfe5);
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .banadzev {
+    display: flex;
+    justify-content: center;  /* Horizontally center the text */
+    align-items: center;      /* Vertically center the text */
+    height: auto;            /* Make the container take full viewport height */
+    margin: 0;                /* Remove any default margin */
+    font-size: 24px;          /* Optional: Set font size */
+    text-align: center;       /* Optional: Align the text itself */
+    font-weight: bold;        /* Optional: Make the text bold */
+  }
+  
+  .banadzev b {
+    font-size: 32px;           /* Optional: Set font size for the bold text */
+  }
+  
+  .bio-header {
+    margin-bottom: 20px;
+  }
+  
+  .bio-header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+  }
+  
+  .bio-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  .bio-content {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .bio-contentt {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .bio-content p {
+    margin-bottom: 15px;
+  }
+  
+  /* The container that holds the link */
+.container {
+  display: flex;
+  justify-content: center;  /* Horizontally centers the link */
+  align-items: center;      /* Vertically centers the link */
+  height: auto;            /* Makes the container take full viewport height */
+  margin: 0;                /* Removes any margin around the container */
+}
+
+/* The link styles */
+.quiz-link {
+  display: inline-block;     /* Makes the link behave like an inline element but allows block styling */
+  margin-top: 20px;          /* Optional: Adds some top margin, can be adjusted or removed */
+  padding: 12px 24px;        /* Adds padding to make the button feel clickable */
+  font-size: 18px;           /* Sets the font size */
+  font-weight: bold;         /* Makes the text bold */
+  color: white;              /* Text color */
+  background-color: #008cba; /* Background color */
+  text-decoration: none;     /* Removes the underline */
+  border-radius: 8px;        /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+
+/* Optional hover effect for better interactivity */
+.quiz-link:hover {
+  background-color: #007ba7; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+  
+  .quiz-link:hover {
+    background-color: #005f8a;
+    transform: scale(1.05);
+  }
+  

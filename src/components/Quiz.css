@@ -1,0 +1,131 @@
+.quiz {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f4faff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.score-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Color-based score classes */
+.green-score .score-text {
+  color: rgb(0, 255, 0);
+}
+
+.blue-score .score-text {
+  color: rgb(0, 119, 255);
+}
+
+.yellow-score .score-text {
+  color: rgb(255, 153, 0);
+}
+
+.red-score .score-text {
+  color: red;
+}
+.question-box {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Добавляем отступы между вопросами */
+}
+
+.question {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.option {
+  background-color: #eaf4fc;
+  color: #333;
+  padding: 15px;
+  margin: 5px 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+}
+
+.option:hover {
+  background-color: #d9edfc;
+}
+
+.option.selected {
+  background-color: #ffa500; /* Оранжевый для выбранных */
+  color: white;
+  transform: scale(1.02);
+}
+
+.option.correct {
+  background-color: #4caf54; /* Зеленый для правильных */
+  color: white;
+}
+
+.option.incorrect {
+  background-color: #f44336; /* Красный для неправильных */
+  color: white;
+}
+
+.check-button {
+  background-color: #008cba;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.check-button:hover {
+  background-color: #005f8a;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007ba7; /* Яркий, привлекательный цвет */
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+  margin-bottom: 20px; /* Отступ снизу */
+  padding: 10px 20px; /* Отступы для улучшения внешнего вида */
+  border-radius: 8px; /* Скругленные углы */
+  transition: all 0.3s ease; /* Плавный переход при наведении */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
+}
+
+.back-link:hover {
+  background-color: #e0f7fa; /* Легкое изменение фона при наведении */
+  color: #005f8a; /* Темный цвет текста при наведении */
+  transform: translateY(-2px); /* Легкий эффект подъема */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Более темная тень при наведении */
+}
+
+.score {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
